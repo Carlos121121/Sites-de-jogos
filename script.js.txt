@@ -1,0 +1,4 @@
+document.getElementById('search').addEventListener('input', function(event) {
+  console.log('Buscando por: ', event.target.value);
+  // Implementar lógica de busca conforme necessário
+});

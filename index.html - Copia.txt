@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seleção de Jogos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Barra de Navegação Superior -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Caça-níqueis</a></li>
+        <li><a href="#">Roleta</a></li>
+        <li><a href="#">Blackjack</a></li>
+        <li><a href="#">Pôquer</a></li>
+        <li><a href="#">Apostas Esportivas</a></li>
+        <li><input type="text" id="search" placeholder="Buscar jogos..."></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Destaques -->
+  <section id="destaques">
+    <h2>Destaques</h2>
+    <div class="carrossel">
+      <div class="promo-item">Promoção 1</div>
+      <div class="promo-item">Promoção 2</div>
+      <div class="promo-item">Promoção 3</div>
+    </div>
+  </section>
+
+  <!-- Layout de Jogos -->
+  <section id="jogos">
+    <h2>Selecione um Jogo</h2>
+    <div class="grid-jogos">
+      <div class="jogo">
+        <img src="slot-icon.png" alt="Caça-níqueis">
+        <button class="btn-jogar">Jogar Agora</button>
+        <button class="btn-demo">Demo</button>
+      </div>
+      <!-- Adicionar mais jogos aqui -->
+    </div>
+  </section>
+
+  <!-- Filtros -->
+  <section id="filtros">
+    <h3>Filtros</h3>
+    <ul>
+      <li><button>Tipo de Jogo</button></li>
+      <li><button>Popularidade</button></li>
+      <li><button>Novidades</button></li>
+    </ul>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <ul>
+      <li><a href="#">Termos e Condições</a></li>
+      <li><a href="#">Suporte</a></li>
+      <li><a href="#">Idioma</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
