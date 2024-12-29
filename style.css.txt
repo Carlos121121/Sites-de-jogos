@@ -1,0 +1,106 @@
+/* Estilo para a estrutura básica */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#search {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+#destaques {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.carrossel {
+  display: flex;
+  justify-content: center;
+}
+
+.promo-item {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #ff0;
+  border-radius: 5px;
+}
+
+#jogos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.grid-jogos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.jogo {
+  background-color: #fff;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jogo img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.btn-jogar, .btn-demo {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-jogar:hover, .btn-demo:hover {
+  background-color: #007B9A;
+}
+
+#filtros {
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+footer {
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
